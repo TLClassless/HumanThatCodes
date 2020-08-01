@@ -6,7 +6,7 @@ body {
 }
 
 body {
-	background: linear-gradient(270deg, #2C3794, #3A3E61, #2d389b, #5F6AC7, #4454E0);
+	background: linear-gradient(270deg, #495196, #3A3E61, #2d389b, #5F6AC7, #4454E0);
     background-size: 800% 800%;
 
     -webkit-animation: AnimationName 30s ease infinite;
@@ -42,7 +42,7 @@ body {
     color: #fff;
     font-size: 64pt;
     text-align: left;
-    margin: 20px;
+    margin: 40px;
 }
 
 .intro a {
@@ -60,7 +60,7 @@ body {
 
 .githubLogo {
     width: 100px;
-    margin: 20px;
-    margin-top: 50px;
+    margin: 40px;
+    margin-top: 20px;
     height: auto;
 }
