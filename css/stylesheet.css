@@ -3,11 +3,12 @@
 body {
     background-color: #003564;
     overflow: hidden;
+    margin-left: 0;
 }
 
 body {
 	background: linear-gradient(270deg, #495196, #3A3E61, #2d389b, #5F6AC7, #4454E0);
-    background-size: 800% 800%;
+    background-size: 800% 100%;
 
     -webkit-animation: AnimationName 30s ease infinite;
     -moz-animation: AnimationName 30s ease infinite;
@@ -30,19 +31,25 @@ body {
     100%{background-position:0% 50%}
 }
 
+
 .home {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     height: 100%;
+    width: 100%;
     min-width: 600px;
-    margin: 160px;
+    padding: 8%;
 }
 
 .intro {
+    align-self: self-start;
     font-family: 'Noto Sans', sans-serif;
     color: #fff;
     font-size: 64pt;
     text-align: left;
-    margin: 40px;
+    margin: 20px;
 }
 
 .intro a {
@@ -50,7 +57,7 @@ body {
 }
 
 .greeting {
-    text-align: center;
+    text-align: left;
 }
 
 .github {
@@ -68,6 +75,23 @@ body {
 .languages img {
     width: auto;
     height: 50px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 900px) {
+
+.home {
+    margin: 50px;
+}
+
+.intro {
+    font-size: 40pt;
+}
+
+.githubLogo {
+    width: 80px;
+}
 }
 
 /* ABOUT */
