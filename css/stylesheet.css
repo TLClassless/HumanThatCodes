@@ -8,6 +8,8 @@ body {
     min-width: 400px;
 }
 
+/* !!!!!!!!!!! BACKGROUND ANIMATION !!!!!!!!!!! */
+
 body {
 	background: linear-gradient(270deg, #495196, #3A3E61, #2d389b, #5F6AC7, #4454E0);
     background-size: 800% 100%;
@@ -33,6 +35,7 @@ body {
     100%{background-position:0% 50%}
 }
 
+/* !!!!!!!!!!! HOMEPAGE !!!!!!!!!!! */
 
 .home {
     display: flex;
@@ -77,14 +80,20 @@ body {
     height: 50px;
 }
 
-/* ABOUT */
-#about-a {
+/* !!!!!!!!!!! ABOUT !!!!!!!!!!! */
+
+.about-page {
     display: flex;
-    flex-direction: row;
     align-items: center;
+    flex-direction: row;
     justify-content: center;
-    width: 100%;
+    flex-direction: column;
     height: 100%;
+    width: 100%;
+    padding: 0 10% 0 10%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22pt;
+    color: #fff;
 }
 
 .about {
@@ -92,30 +101,40 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 24pt;
-    color: #fff;
+}
+
+.about-text-box p {
+    margin-bottom: 20px;
 }
 
 .about a {
     color: #5AFFE9
 }
 
-.about-img {
-    display: flex;    
-    align-items: center;
-    justify-content: center;
+.break {
+    height: 50px;
 }
 
-.about-img img {
-    width: 300px;
-    height: 300px;
+.about-lang {
+    width: 100%;
+    flex-wrap: wrap;
     display: flex;
-    margin-left: 50px;
-    border-radius: 30px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-self: flex-start;
+    align-items: center;
 }
 
-/* media queries */
+.about-lang img {
+    margin: 30px;
+    height: 50px;
+}
+
+.about-img {
+    display: none;
+}
+
+/* !!!!!!!!!!! MEDIA QUERIES !!!!!!!!!!! */
 
 @media only screen and (max-width: 900px) {
 
