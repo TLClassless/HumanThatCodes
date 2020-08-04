@@ -130,8 +130,16 @@ body {
     height: 50px;
 }
 
-.about-img {
-    display: none;
+.home-ico {
+    width: 100%;
+}
+
+.home-ico img {
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    height: 50px;
+
 }
 
 /* !!!!!!!!!!! MEDIA QUERIES !!!!!!!!!!! */
