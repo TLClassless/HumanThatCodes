@@ -144,18 +144,32 @@ body {
 
 /* !!!!!!!!!!! MEDIA QUERIES !!!!!!!!!!! */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
+    .intro {
+        font-size: 50pt;
+    }
+
+}
+
+@media only screen and (max-height: 1000px) {
+    .intro {
+        font-size: 50pt;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
 
     .home {
-        margin: 50px;
+        margin: 30px;
     }
     
     .intro {
-        font-size: 40pt;
+        font-size: 34pt;
     }
     
     .githubLogo {
-        width: 80px;
+        width: 60px;
     }
 
     .about-img {
@@ -169,5 +183,32 @@ body {
     .about {
         font-size: 20pt;
     }
-
     }
+
+@media only screen and (max-height: 800px) {
+
+        .home {
+            margin: 30px;
+        }
+        
+        .intro {
+            font-size: 34pt;
+        }
+        
+        .githubLogo {
+            width: 60px;
+        }
+    
+        .about-img {
+            display: none;
+            border-radius: 0;
+            width: 0;
+            height: 0;
+            margin-left: 0;
+        }
+    
+        .about {
+            font-size: 20pt;
+        }
+    
+        }
