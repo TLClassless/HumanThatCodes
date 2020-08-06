@@ -163,6 +163,10 @@ body {
         font-size: 50pt;
     }
 
+    .home-ico {
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 800px) {
