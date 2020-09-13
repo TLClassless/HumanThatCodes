@@ -137,17 +137,6 @@ body {
     height: 50px;
 }
 
-.home-ico {
-    width: 100%;
-}
-
-.home-ico img {
-    display: flex;
-    justify-content: flex-start;
-    float: left;
-    height: 50px;
-}
-
 /* !!!!!!!!!!! MEDIA QUERIES !!!!!!!!!!! */
 
 @media only screen and (max-width: 1000px) {
@@ -162,10 +151,6 @@ body {
         font-size: 50pt;
     }
 
-    .home-ico {
-        display: none;
-    }
-
 }
 
 @media only screen and (max-width: 800px) {
@@ -176,10 +161,6 @@ body {
     
     .githubLogo {
         width: 60px;
-    }
-
-    .home-ico {
-        display: none;
     }
 
     .about-img {
