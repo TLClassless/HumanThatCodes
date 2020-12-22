@@ -1,211 +1,255 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
 
-html {
-    box-sizing: border-box;
+ul,
+ol {
+  margin: 0;
+  list-style: none;
 }
 
-*, *:before, *:after {
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    margin-left: 0;
-    padding-left: 0;
-    width: 100%;
-    min-width: 400px;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  padding-left: 0;
+  width: 100%;
+  min-width: 400px;
+  height: 100%;
 }
 
 /* !!!!!!!!!!! BACKGROUND ANIMATION !!!!!!!!!!! */
 
 body {
-	background: linear-gradient(270deg, #495196, #3A3E61, #2d389b, #5F6AC7, #4454E0);
-    background-size: 800% 100%;
+  background: linear-gradient(
+    270deg,
+    #495196,
+    #3a3e61,
+    #2d389b,
+    #5f6ac7,
+    #4454e0
+  );
+  background-size: 800% 100%;
 
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* !!!!!!!!!!! HOMEPAGE !!!!!!!!!!! */
 
 .home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 10% 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 10% 0 10%;
 }
 
 .intro {
-    align-self: self-start;
-    font-family: 'Noto Sans', sans-serif;
-    color: #fff;
-    font-size: 64pt;
-    text-align: left;
-    margin: 0 0 30px 0;
+  align-self: self-start;
+  font-family: "Noto Sans", sans-serif;
+  color: #fff;
+  font-size: 64pt;
+  text-align: left;
+  margin: 0 0 30px 0;
 }
 
 .intro a {
-    color: #5AFFE9; 
+  color: #5affe9;
 }
 
 .greeting {
-    text-align: left;
+  text-align: left;
 }
 
 .github {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 .githubLogo {
-    width: 100px;
-    margin: 30px 10px 0 0;
-    height: auto;
+  width: 100px;
+  margin: 30px 10px 0 0;
+  height: auto;
 }
 
 #dribbble {
-    margin: 30px 0 0 10px;
+  margin: 30px 0 0 10px;
 }
 
 .languages img {
-    width: auto;
-    height: 50px;
+  width: auto;
+  height: 50px;
 }
 
 /* !!!!!!!!!!! ABOUT !!!!!!!!!!! */
 
 .about-page {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 10% 0 10%;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 22pt;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 10% 0 10%;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 22pt;
+  color: #fff;
 }
 
 .about {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .about-text-box p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about a {
-    color: #5AFFE9
+  color: #5affe9;
 }
 
 .break {
-    height: 30px;
+  height: 30px;
 }
 
 .about-lang {
-    width: 100%;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-self: flex-start;
-    align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-self: flex-start;
+  align-items: center;
 }
 
 .about-lang img {
-    margin: 30px;
-    height: 50px;
+  margin: 30px;
+  height: 50px;
+}
+
+/* !!!!!!!!!!! PORTFOLIO !!!!!!!!!!! */
+
+#portfolio-head {
+  font-size: 20pt;
+}
+
+.portfolio-item {
+  height: 150px;
+  width: 200px;
+  background-color: #0074d9;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  float: left;
+  margin-right: 20px;
 }
 
 /* !!!!!!!!!!! MEDIA QUERIES !!!!!!!!!!! */
 
 @media only screen and (max-width: 1000px) {
-    .intro {
-        font-size: 50pt;
-    }
-
+  .intro {
+    font-size: 50pt;
+  }
 }
 
 @media only screen and (max-height: 900px) {
-    .intro {
-        font-size: 50pt;
-    }
-
+  .intro {
+    font-size: 50pt;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    
-    .intro {
-        font-size: 34pt;
-    }
-    
-    .githubLogo {
-        width: 60px;
-    }
+  .intro {
+    font-size: 34pt;
+  }
 
-    .about-img {
-        display: none;
-        border-radius: 0;
-        width: 0;
-        height: 0;
-        margin-left: 0;
-    }
+  .githubLogo {
+    width: 60px;
+  }
 
-    .about {
-        margin-top: 10%;
-        font-size: 20pt;
-        padding: 0 10px;
-    }
-    }
+  .about-img {
+    display: none;
+    border-radius: 0;
+    width: 0;
+    height: 0;
+    margin-left: 0;
+  }
+
+  .about {
+    margin-top: 10%;
+    font-size: 20pt;
+    padding: 0 10px;
+  }
+}
 
 @media only screen and (max-height: 800px) {
+  .intro {
+    font-size: 34pt;
+  }
 
-        .intro {
-            font-size: 34pt;
-        }
-        
-        .githubLogo {
-            width: 60px;
-        }
-    
-        .about-img {
-            display: none;
-            border-radius: 0;
-            width: 0;
-            height: 0;
-            margin-left: 0;
-        }
-    
-        .about {
-            margin-top: 10%;
-            font-size: 20pt;
-        }
-    
-        }
+  .githubLogo {
+    width: 60px;
+  }
+
+  .about-img {
+    display: none;
+    border-radius: 0;
+    width: 0;
+    height: 0;
+    margin-left: 0;
+  }
+
+  .about {
+    margin-top: 10%;
+    font-size: 20pt;
+  }
+}
