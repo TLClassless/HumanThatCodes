@@ -8,6 +8,7 @@ ol {
 
 html {
   box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
 }
 
 *,
@@ -199,9 +200,11 @@ body {
 
 .portfolio-item {
   display: flex;
+  flex-direction: column;
   height: 250px;
   width: 400px;
   background-color: #0074d9;
+  color: #fff;
   border-radius: 20px;
   float: center;
   margin: 10px;
@@ -211,6 +214,15 @@ body {
 
 .portfolio-item img {
   height: 100px;
+}
+
+.portfolio-item p {
+  margin: 0;
+}
+
+.portfolio-item h2 {
+  margin: 0;
+  font-size: 24pt;
 }
 
 #proj0 {
