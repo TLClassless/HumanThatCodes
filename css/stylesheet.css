@@ -217,12 +217,78 @@ body {
 }
 
 .portfolio-item p {
+  display: flex;
+  align-items: center;
   margin: 0;
 }
 
 .portfolio-item h2 {
   margin: 0;
   font-size: 24pt;
+}
+
+.proj-on-hover img {
+  height: 50px;
+}
+
+.proj-on-hover-bg {
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  background-color: #000;
+  opacity: 0%;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  z-index: 9;
+  flex-direction: column;
+}
+
+.proj-on-hover {
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  opacity: 0%;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  z-index: 10;
+}
+
+.proj-on-hover p {
+  z-index: 11;
+}
+
+.proj-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.proj-description {
+  text-align: center;
+  padding: 10px;
+}
+
+.proj-on-hover-bg:hover {
+  opacity: 90%;
+}
+
+.proj-on-hover:hover {
+  opacity: 100%;
+}
+
+.proj-divider {
+  margin: 0 16px;
 }
 
 #proj0 {
