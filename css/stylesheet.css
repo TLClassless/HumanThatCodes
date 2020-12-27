@@ -17,7 +17,17 @@ html {
   box-sizing: border-box;
 }
 
-body {
+.about-body {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  padding-left: 0;
+  width: 100%;
+  min-width: 400px;
+  height: 100%;
+}
+
+.home-body {
   display: flex;
   align-items: center;
   margin-left: 0;
@@ -87,6 +97,7 @@ body {
   justify-content: center;
   flex-direction: column;
   width: 100%;
+  height: 100%;
   padding: 0 10% 0 10%;
 }
 
@@ -135,7 +146,6 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100%;
   margin-bottom: 20px;
   font-size: 30pt;
   color: #fff;
@@ -157,6 +167,7 @@ body {
   justify-content: center;
   flex-direction: column;
   width: 100%;
+  height: 100%;
   padding: 0 10% 0 10%;
   font-family: "Noto Sans", sans-serif;
   font-size: 22pt;
@@ -164,7 +175,6 @@ body {
 }
 
 .about {
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,6 +213,7 @@ body {
 
 .portfolio {
   overflow: hidden;
+  height: 100%;
 }
 
 #portfolio-head {
@@ -448,6 +459,14 @@ body {
     margin-top: 10%;
     font-size: 20pt;
     padding: 0 10px;
+  }
+
+  .about-head {
+    font-size: 20pt;
+  }
+
+  .about-body {
+    height: auto;
   }
 }
 
