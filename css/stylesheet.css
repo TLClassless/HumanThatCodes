@@ -23,7 +23,6 @@ html {
   margin-left: 0;
   padding-left: 0;
   width: 100%;
-  min-width: 400px;
   height: 100%;
 }
 
@@ -33,7 +32,6 @@ html {
   margin-left: 0;
   padding-left: 0;
   width: 100%;
-  min-width: 400px;
   height: 100%;
 }
 
@@ -472,6 +470,18 @@ body {
   .about-body {
     height: auto;
   }
+
+  .portfolio-item {
+    width: 300px;
+  }
+
+  .proj-on-hover {
+    width: 300px;
+  }
+
+  .proj-on-hover-bg {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-height: 800px) {
@@ -494,5 +504,41 @@ body {
   .about {
     margin-top: 10%;
     font-size: 20pt;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .intro {
+    font-size: 26pt;
+  }
+
+  .about {
+    margin-top: 10%;
+    font-size: 16pt;
+    padding: 0 10px;
+  }
+
+  .about-head {
+    font-size: 16pt;
+  }
+
+  .about-body {
+    height: auto;
+  }
+
+  .portfolio-item {
+    width: 260px;
+  }
+
+  .proj-on-hover {
+    width: 260px;
+  }
+
+  .proj-on-hover-bg {
+    width: 100%;
+  }
+
+  .about-lang img {
+    height: 40px;
   }
 }
