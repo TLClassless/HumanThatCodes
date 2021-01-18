@@ -144,7 +144,7 @@ body {
 
 .about-head {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -160,6 +160,14 @@ body {
 
 .about-head h3 {
   margin: 0 0 0 0;
+}
+
+.about-toggles {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 12pt;
+  justify-content: center;
 }
 
 .about-page {
@@ -216,6 +224,11 @@ body {
 .portfolio {
   overflow: hidden;
   height: 100%;
+}
+
+.proj-break {
+  margin-left: 10pt;
+  margin-right: 10pt;
 }
 
 #portfolio-head {
@@ -398,20 +411,20 @@ body {
 }
 
 #proj4 {
-  background: #434343;
-  background: -moz-linear-gradient(top, #434343 0%, #000 100%);
+  background: #b91c8a;
+  background: -moz-linear-gradient(top, #b91c8a 0%, #5e216d 100%);
   background: -webkit-gradient(
     linear,
     left top,
     left bottom,
-    color-stop(0%, #434343),
-    color-stop(100%, #000)
+    color-stop(0%, #b91c8a),
+    color-stop(100%, #5e216d)
   );
-  background: -webkit-linear-gradient(top, #434343 0%, #000 100%);
-  background: -o-linear-gradient(top, #434343 0%, #000 100%);
-  background: -ms-linear-gradient(top, #434343 0%, #000 100%);
-  background: linear-gradient(to bottom, #434343 0%, #000 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#000',GradientType=0 );
+  background: -webkit-linear-gradient(top, #b91c8a 0%, #5e216d 100%);
+  background: -o-linear-gradient(top, #b91c8a 0%, #5e216d 100%);
+  background: -ms-linear-gradient(top, #b91c8a 0%, #5e216d 100%);
+  background: linear-gradient(to bottom, #b91c8a 0%, #5e216d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#5e216d',GradientType=0 );
 }
 
 #proj5 {
